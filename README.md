@@ -49,12 +49,13 @@ Wait for completion:
 
 ⚙️ Configuration
 You can edit the following constants at the top of the script:
+```js
     const START_ID = 'li_0xEEB9B76A'; // First native to scrape
     const LAST_ID  = null;            // Last native to scrape (null = scrape all)
-
+````
 📝 Output Format
     Example JSON entry:
-{
+```json{
   "namespace": "CFX",
   "apiset": "server",
   "name": "AddBlipForEntity",
@@ -64,7 +65,7 @@ You can edit the following constants at the top of the script:
   "returns": ["A blip handle."],
   "description": "Create a blip that by default is red (enemy)..."
 }
-
+```
 🛠 Troubleshooting
     Script stops with “Could not render ID” The docs site uses virtualized lists. The script scrolls to each ID before clicking, but if the site layout changes, update the selectors in scrollToId().
     Script hangs on first native Make sure you’ve set Lua / All / Natives in the browser before pressing Enter.
