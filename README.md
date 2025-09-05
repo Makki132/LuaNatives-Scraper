@@ -1,6 +1,8 @@
 # FiveM Natives Scraper (Lua / All / Natives)
 
-- **YOU MUST HAVE THE BROWSER OPEN AT ALL TIMES!**
+⚠️ **Important:** The scraper window must remain open and visible while running.  
+Minimizing the browser can pause rendering and break the scraping process due to how the FiveM docs site loads content.
+
 
 This Node.js + Playwright script scrapes **all FiveM natives** from the official docs, extracting rich, structured data directly from the `<aside class="show">` details panel.
 
