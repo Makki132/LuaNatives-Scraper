@@ -1,5 +1,7 @@
 # FiveM Natives Scraper (Lua / All / Natives)
 
+- **YOU MUST HAVE THE BROWSER OPEN AT ALL TIMES!**
+
 This Node.js + Playwright script scrapes **all FiveM natives** from the official docs, extracting rich, structured data directly from the `<aside class="show">` details panel.
 
 It captures:
