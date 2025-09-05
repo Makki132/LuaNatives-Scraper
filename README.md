@@ -66,10 +66,12 @@ You can edit the following constants at the top of the script:
   "description": "Create a blip that by default is red (enemy)..."
 }
 ```
+
 🛠 Troubleshooting
-    Script stops with “Could not render ID” The docs site uses virtualized lists. The script scrolls to each ID before clicking, but if the site layout changes, update the selectors in scrollToId().
-    Script hangs on first native Make sure you’ve set Lua / All / Natives in the browser before pressing Enter.
-    Output file is empty Check that you have the correct START_ID and that the selectors in the script match the current site HTML.
+---
+- Script stops with “Could not render ID” The docs site uses virtualized lists. The script scrolls to each ID before clicking, but if the site layout changes, update the selectors in scrollToId().
+- Script hangs on first native Make sure you’ve set Lua / All / Natives in the browser before pressing Enter.
+- Output file is empty Check that you have the correct START_ID and that the selectors in the script match the current site HTML.
 
 📄 License
 MIT License — feel free to use, modify, and share.
