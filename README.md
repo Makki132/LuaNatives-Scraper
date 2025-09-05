@@ -27,6 +27,7 @@ npm install playwright
 npx playwright install firefox
 
 🚀 Usage
+---
 Clone this repository:
 git clone https://github.com/Makki132/LuaNatives-Scraper.git
 cd fivem-natives-scraper
@@ -48,13 +49,15 @@ Wait for completion:
       lua_natives_full.json
 
 ⚙️ Configuration
+---
 You can edit the following constants at the top of the script:
 ```js
     const START_ID = 'li_0xEEB9B76A'; // First native to scrape
     const LAST_ID  = null;            // Last native to scrape (null = scrape all)
 ````
 📝 Output Format
-    Example JSON entry:
+---
+- Example JSON entry:
 ```json{
   "namespace": "CFX",
   "apiset": "server",
